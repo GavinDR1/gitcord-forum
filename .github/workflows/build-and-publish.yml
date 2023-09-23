@@ -36,7 +36,7 @@ jobs:
       run: pnpm install --frozen-lockfile
 
     - name: Test worker build
-      uses: cloudflare/wrangler-action@4c10c1822abba527d820b29e6333e7f5dac2cabd # tag=2.0.0
+      uses: cloudflare/wrangler-action@09fc6b504568cf179b085df24393f237fea6c7f6 # v3.1.1
       with:
         apiToken: ${{ secrets.CF_API_TOKEN }}
         accountId: ${{ secrets.CF_ACCOUNT_ID }}
@@ -67,7 +67,7 @@ jobs:
       run: pnpm install --frozen-lockfile
 
     - name: Publish to Worker
-      uses: cloudflare/wrangler-action@4c10c1822abba527d820b29e6333e7f5dac2cabd # tag=2.0.0
+      uses: cloudflare/wrangler-action@09fc6b504568cf179b085df24393f237fea6c7f6 # v3.1.1
       with:
         apiToken: ${{ secrets.CF_API_TOKEN }}
         accountId: ${{ secrets.CF_ACCOUNT_ID }}
