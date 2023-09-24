@@ -1,9 +1,9 @@
-name = "gitcord-forum"
+name = "worker-polished-hat-3e27"
 main = "./build/index.js"
 workers_dev = true
 compatibility_date = "2022-11-30"
 
-kv_namespaces = [{ binding = "DB", id = "293ac4c6310245ee8b87c7a070ae24b2" }]
+kv_namespaces = [{ binding = "DB", id = "658699c33e2a4194a98c710d3ad8ff65" }]
 
 [build]
 command = "npm run build"
