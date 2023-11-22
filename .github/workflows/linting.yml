@@ -11,7 +11,7 @@ on:
 jobs:
   eslint:
     name: ESLint
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - name: Checkout repository
@@ -23,10 +23,9 @@ jobs:
         version: 8
 
     - name: Set up node
-      uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3
+      uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65 # v4
       with:
         node-version-file: ".nvmrc"
-        cache: "pnpm"
 
     - name: Install dependencies
       run: pnpm install --frozen-lockfile
