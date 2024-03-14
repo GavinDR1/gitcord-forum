@@ -9,16 +9,16 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "discord-api-types": "0.37.66"
+    "discord-api-types": "0.37.73"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20231218.0",
-    "@octokit/webhooks-types": "7.3.1",
-    "@tsconfig/strictest": "2.0.2",
-    "eslint": "8.56.0",
+    "@cloudflare/workers-types": "4.20240312.0",
+    "@octokit/webhooks-types": "7.4.0",
+    "@tsconfig/strictest": "2.0.3",
+    "eslint": "8.57.0",
     "eslint-config-promise": "github:promise/eslint-config",
-    "typescript": "5.3.3",
-    "wrangler": "3.22.1"
+    "typescript": "5.4.2",
+    "wrangler": "3.33.0"
   },
   "eslintConfig": {
     "extends": "promise"
